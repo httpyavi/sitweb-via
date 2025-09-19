@@ -1,0 +1,444 @@
+html {
+    scroll-padding-top: 70px;
+}
+
+/* General Section Styling */
+#about-us, .faculty, .organization {
+    margin-top: 96px; /* Space for fixed navigation bar */
+}
+
+/* General Section Styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Vision and Mission Section */
+#vision-mission {
+    padding: 50px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.vision-mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.vision, .mission {
+    background-color: #FFDDEC;
+    border-radius: 10px;
+    height: 300px;
+    padding: 30px;
+    width: 48%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.vision h3, .mission h3 {
+    color: #FF007F;
+    text-align: center;
+    font-size: 35px;
+}
+
+.vision p, .mission p {
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Organization Section */
+.organization {
+    width: 100%;
+    background-color: #fff;
+}
+
+.organization-content {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organization-content h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    color: #FF007F;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.organization-content p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.organization-card {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.organization-card img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.org-info h4 {
+    color: #e99c3b;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.org-info p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.org-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.org-buttons a {
+    display: inline-block;
+    color: #e99c3b;
+    padding: 12px 30px;
+    border: 2px solid #e99c3b;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    margin-top: auto;
+}
+
+.org-buttons a:hover {
+    background-color: #e99c3b;
+    border: 2px solid #e99c3b;
+    color: white;
+    cursor: pointer;
+}
+
+/* Department Officers Section */
+.dept-officers {
+    width: 100%;
+    background-color: #FFDDEC;
+    padding: 50px 0;
+}
+
+.officers-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.officers-content h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FF007F;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.officers-content p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Department Officers Section */
+.dept-officers {
+    width: 100%;
+    background-color: #FFDDEC;
+    padding: 50px 0;
+}
+
+.officers-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.officers-content h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FF007F;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.officers-content p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* Carousel Wrapper */
+.officers-container-wrapper {
+    overflow: hidden;
+    margin: 0;
+    padding: 0; /* Ensure no extra padding */
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    left: 50%; /* Move the wrapper to the center */
+    transform: translateX(-50%); /* Adjust for centering */
+}
+
+/* Officers Scrolling Container */
+.officers-container {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    animation: scroll-infinite 30s linear infinite;
+    width: 100%; /* Ensure it stretches across the screen */
+}
+
+/* Officer Cards */
+.officer-card {
+    flex: 0 0 200px; /* Fixed width for each card */
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Officer Images */
+.officer-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Keyframe for Infinite Scrolling */
+@keyframes scroll-infinite {
+    0% {
+        transform: translateX(0); /* Start at the beginning */
+    }
+    80% {
+        transform: translateX(calc(-220px * 13)); /* Scroll just before the reset */
+    }
+    100% {
+        transform: translateX(0); /* Loop back to the start smoothly */
+    }
+}
+
+.officer-card {
+    flex: 0 0 200px; /* Fixed width for each card */
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.officer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.officers-container:hover {
+    animation-play-state: paused;
+}
+
+.officer-card h4 {
+    text-align: center;
+    color: #FF007F;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.officer-card p {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+}
+
+/* Faculty Section */
+.faculty {
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+
+.faculty-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.faculty-content h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    color: #FF007F;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.faculty-content p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* Carousel Wrapper */
+.faculty-container-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Carousel Container */
+.faculty-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+}
+
+.faculty-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.faculty-container::-webkit-scrollbar-thumb {
+    background-color: #FF007F;
+    border-radius: 10px;
+}
+
+.faculty-container::-webkit-scrollbar-track {
+    background-color: #FFDDEC;
+}
+
+/* Faculty Card */
+.faculty-card {
+    flex: 0 0 calc(33.333% - 20px); /* Three cards per view */
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #FF007F;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    position: relative;
+    overflow: hidden; /* Hide overflowed content */
+    transition: transform 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: scale(1.01);
+}
+
+.faculty-card img {
+    width: 370px;
+    height: 480px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.faculty-card h4 {
+    color: #FF007F;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.faculty-card p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+/* Additional Info Styling */
+.additional-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 127, 0.8); /* Semi-transparent pink background */
+    color: #333;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1; /* Make sure it's above other content */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faculty-card:hover .additional-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.additional-info h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.additional-info ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+    text-align: left;
+    color: white;
+}
+
+.additional-info ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
