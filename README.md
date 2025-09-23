@@ -1,7 +1,10 @@
 # SIT Website (My Version)
 
-This is my personal version of the **School of Information and Technology (SIT)** website.  
-I built it using **HTML, CSS, and JavaScript** as part of my ITD101L Final Project to practice front-end web development and apply my own design and layout ideas.
+This is my personal version of the **School of Information and Technology (SIT)** website. I built it using **HTML, CSS, and JavaScript** as part of my ITD101L Final Project to practice front-end web development and apply my own design and layout ideas.
+
+<img width="1899" height="923" alt="image" src="https://github.com/user-attachments/assets/07af5563-456f-47d0-86ef-41ac4ef03c56" />
+<img width="1895" height="920" alt="image" src="https://github.com/user-attachments/assets/7b9172d0-8488-4961-854e-78241c64b676" />
+View the website live: https://httpyavi.github.io/sitweb-via/
 
 ## 🌟 Features
 - Custom design inspired by the SIT website  
